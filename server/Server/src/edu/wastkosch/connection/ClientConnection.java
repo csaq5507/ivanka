@@ -40,12 +40,14 @@ public class ClientConnection extends Thread {
 			byte[] buffer = new byte[512];
 			try {
 				in.read(buffer);
+
 			} catch (IOException e) {
 				System.out.println("Error during read");
 				e.printStackTrace();
 				return;
 			}
 			String message = Arrays.toString(buffer);
+			System.out.println("Read: " + message);
 			if (message.startsWith(Protocol.WELCOME)) {
 				handshake(message.split(Protocol.WELCOME)[1]);
 			} else if (Protocol.privateKey.decrypt(message).startsWith(

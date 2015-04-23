@@ -11,11 +11,10 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import com.google.android.gms.maps.model.LatLng;
-
 import uibk.sup.ivanka.models.Event;
-import uibk.sup.ivanka.models.User;
 import android.os.AsyncTask;
+
+import com.google.android.gms.maps.model.LatLng;
 
 /**
  * @author Daniel

@@ -35,7 +35,7 @@ public class Controller {
 	public void init() {
 		Thread udpListener = new Thread(new Listener());
 		udpListener.start();
-		db = new Database();
+		// db = new Database();
 	}
 
 	/**
