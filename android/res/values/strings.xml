@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ivanka</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- activity_starty -->
+    
+    <string name="CreateAccount">Create</string>
+    <string name="AcceptASGB">I am accepting the ASGB</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="repeatPassword">repeat password</string>
+    <string name="passwordInfo">Enter a password between 6 and 16 characters</string>
+    <string name="read">read</string>
+    <string name="ASGB">Here later will stand our ASGB\'s.</string>
+    <string name="AutoFill">autofill</string>
+    <string name="login">login.</string>
+    
+
+    
+
+    
+    <!-- fragment_info_window_layout -->
+    
+    <string name="imageDescritpion">Here would be a description of the Image view at the map near the marker</string>
+    
+    
+    
+    
+    <!-- fragment_standard_settings -->
+    
+    <string name="profilePicture">The profile picture of the user</string>
+   	<string name="changePassword">change</string>
+   	<string name="saveChanges">save</string>
+   	<string name="changeUsername">enter a new Username</string>
+   	<string name="date">set your birthday date</string>
+   	<string name="smallMessage">enter a small message</string>
+   	<string name="confrimChange">comfirm username change with password</string>
+   	
+   	
+   	
+   	<!-- fragment_login_settings -->
+    
+    <string name="oldPassword">old password</string>
+    <string name="newPassword">new password</string>
+    <string name="confirmNewPassword">confrim password</string>
+   	
+    
+    
+   	<!-- fragment_log_out -->
+    
+    <string name="AutoLogin">auto login</string>
+    <string name="logOut">log out</string>
+    
+    
+    
+    <!-- fragment_event_general_* -->
+    
+    <string name="select">select</string>
+    <string name="createNewEvent">create new event</string>
+    <string name="takePhoto">add photo</string>
+    <string name="eventName">event name</string>
+    <string name="addEvent">create new event</string>
+    
+    
+    
+    <!-- fragment_event_comments -->
+    
+    <string name="comment">add a comment</string>
+    <string name="save">save</string>
+    
+    
+    
+    <!-- fragment_event_description -->
+    
+    <string name="nameOfDJ">add the name of the DJ</string>
+    
+    
+    
+    
+    
+</resources>
